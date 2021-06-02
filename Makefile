@@ -24,9 +24,9 @@ APP:= deepstream-test1-cam-app
 
 TARGET_DEVICE = $(shell gcc -dumpmachine | cut -f1 -d -)
 
-NVDS_VERSION:=4.0
+#NVDS_VERSION:=4.0
 
-SDK_INSTALL_DIR?=/opt/nvidia/deepstream/deepstream-$(NVDS_VERSION)/
+SDK_INSTALL_DIR?=/opt/nvidia/deepstream/deepstream/
 
 LIB_INSTALL_DIR?=$(SDK_INSTALL_DIR)/lib/
 

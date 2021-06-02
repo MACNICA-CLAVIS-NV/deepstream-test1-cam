@@ -37,8 +37,8 @@
 /* The muxer output resolution must be set if the input streams will be of
  * different resolution. The muxer will scale all the input frames to this
  * resolution. */
-#define MUXER_OUTPUT_WIDTH 1280
-#define MUXER_OUTPUT_HEIGHT 720
+#define MUXER_OUTPUT_WIDTH 640
+#define MUXER_OUTPUT_HEIGHT 480
 
 /* Muxer batch formation timeout, for e.g. 40 millisec. Should ideally be set
  * based on the fastest source's framerate. */
