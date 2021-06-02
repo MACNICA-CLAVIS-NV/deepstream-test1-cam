@@ -18,3 +18,8 @@ $ ./docker_run.sh
 ~~~
 
 ## Note
+This release supports only for JetPack 4.5.1.
+If you want to run this for other versions of JetPack, modify the following line in Dockerfile.
+~~~
+ARG BASE_IMAGE=nvcr.io/nvidia/deepstream-l4t:5.1-21.02-samples
+~~~
