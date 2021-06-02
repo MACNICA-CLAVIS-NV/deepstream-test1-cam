@@ -12,7 +12,9 @@ $ ./docker_build.sh
 ~~~
 
 ### Run the application
-*** You need to have a USB camera on /dev/video0 on your host L4T OS.
+**You need to have a USB camera on /dev/video0 on your host L4T OS.**
 ~~~
 $ ./docker_run.sh
 ~~~
+
+## Note
